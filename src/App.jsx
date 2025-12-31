@@ -1,15 +1,12 @@
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-
 function App() {
   return (
-    <>
-      <Navbar />
-      <Home />
-    </>
+    <div className="min-h-screen bg-black text-white flex items-center justify-center">
+      <h1 className="text-4xl font-bold tracking-wide">SHADAY</h1>
+    </div>
   )
 }
 
 export default App
+
 
 

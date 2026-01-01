@@ -1,9 +1,10 @@
 function Home() {
   return (
-    <div>
-      <h2>Welcome to SHADAY</h2>
+    <div className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">WELCOME TO SHADAY</h1>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
+
